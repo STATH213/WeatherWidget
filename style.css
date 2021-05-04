@@ -1,0 +1,84 @@
+/* style for div that holds: all cards*/
+.cards-container {
+    display:grid; 
+    grid-gap: 10px;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+/* style for each of the 4 card divs*/
+.card {
+    display:grid;
+    height : 300px;
+    grid-template-rows: 2fr 1fr; /* creating grid with 3 rows within card*/
+    background-color: rgb(240,240,240);
+    border-radius: 10px;
+}
+
+/* style for div that holds main */
+.card .card-main {
+    font-size: x-large;
+    text-align: center;
+}
+
+
+.card .card-sub {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+.card .card-sub .card-sub-col1{
+    font-size:x-large;
+    border-top: rgb(214, 214, 214) solid 2px;
+    border-right: rgb(214, 214, 214) solid 2px;
+}
+
+
+
+.card .card-sub .card-sub-col2{
+    padding-top: 10px;
+    padding-left: 5px;
+    font-size: 15px;
+    border-top: rgb(214, 214, 214) solid 2px;
+}
+
+
+.same {
+    margin: 5px;
+    display:inline;
+   }
+
+   .heightmargin{
+       display: table-row;
+       display: flex;
+       justify-content: left;
+       flex-direction: row;
+       margin: 5px;
+   }
+
+  .low-high{
+      font-size: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+
+  .blue{
+      color: rgb(108,200,248);
+      font-size: 35px;
+  }
+
+  .orange{
+      color: orange;
+      font-size: 35px
+  }
+
+  span {
+    content: "\2103";
+  }
+
+  .cel{
+      color: rgb(112, 112, 112, 112);
+      font-size: xx-large;
+      font-family: Malik Book;
+  }
