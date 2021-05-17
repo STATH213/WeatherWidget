@@ -1,5 +1,5 @@
 // for Highest temperature
-var monWeatherHigh = "20";
+var monWeatherHigh = "21";
 var tueWeatherHigh = "25";
 var wedWeatherHigh = "30";
 var thursWeatherHigh = "10";
@@ -50,35 +50,37 @@ var weather = {
 
 console.log("CONNECTED");
 
-document.getElementById("1stH").innerHTML = weather.Monday[0];
-document.getElementById("2ndH").innerHTML = weather.Tuesday[0];
-document.getElementById("3rdH").innerHTML = weather.Wednesday[0];
-document.getElementById("4thH").innerHTML = weather.Thursday[0];
+document.getElementById("0H").innerHTML = weather.Monday[0];
+document.getElementById("1H").innerHTML = weather.Tuesday[0];
+document.getElementById("2H").innerHTML = weather.Wednesday[0];
+document.getElementById("3H").innerHTML = weather.Thursday[0];
 //document.getElementById("2ndH").innerHTML = weather.Friday[0];
 //document.getElementById("3rdH").innerHTML = weather.Saturday[0];
 //document.getElementById("4thH").innerHTML = weather.Sunday[0];
 
-document.getElementById("1stL").innerHTML = weather.Monday[1];
-document.getElementById("2ndL").innerHTML = weather.Tuesday[1];
-document.getElementById("3rdL").innerHTML = weather.Wednesday[1];
-document.getElementById("4thL").innerHTML = weather.Thursday[1];
+document.getElementById("0L").innerHTML = weather.Monday[1];
+document.getElementById("1L").innerHTML = weather.Tuesday[1];
+document.getElementById("2L").innerHTML = weather.Wednesday[1];
+document.getElementById("3L").innerHTML = weather.Thursday[1];
 //document.getElementById("2ndL").innerHTML = weather.Friday[1];
 //document.getElementById("3rdL").innerHTML = weather.Saturday[1];
 //document.getElementById("4thL").innerHTML = weather.Sunday[1];
 
-document.getElementById("1stR").innerHTML = weather.Monday[2];
-document.getElementById("2ndR").innerHTML = weather.Tuesday[2];
-document.getElementById("3rdR").innerHTML = weather.Wednesday[2];
-document.getElementById("4thR").innerHTML = weather.Thursday[2];
+document.getElementById("0R").innerHTML = weather.Monday[2];
+document.getElementById("1R").innerHTML = weather.Tuesday[2];
+document.getElementById("2R").innerHTML = weather.Wednesday[2];
+document.getElementById("3R").innerHTML = weather.Thursday[2];
 //document.getElementById("2ndL").innerHTML = weather.Friday[1];
 //document.getElementById("3rdL").innerHTML = weather.Saturday[1];
 //document.getElementById("4thL").innerHTML = weather.Sunday[1];
 
-document.getElementById("1stW").innerHTML = weather.Monday[3];
-document.getElementById("2ndW").innerHTML = weather.Tuesday[3];
-document.getElementById("3rdW").innerHTML = weather.Wednesday[3];
-document.getElementById("4thW").innerHTML = "wind: "+weather.Thursday[3];
+document.getElementById("0W").innerHTML = weather.Monday[3];
+document.getElementById("1W").innerHTML = weather.Tuesday[3];
+document.getElementById("2W").innerHTML = weather.Wednesday[3];
+document.getElementById("3W").innerHTML = weather.Thursday[3];
 //document.getElementById("2ndL").innerHTML = weather.Friday[1];
 //document.getElementById("3rdL").innerHTML = weather.Saturday[1];
 //document.getElementById("4thL").innerHTML = weather.Sunday[1];
+
+
 

@@ -6,33 +6,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather</title>
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet"
+     href="https://fonts.googleapis.com/css?family=Tangerine">
 </head>
 
 
 <body>
-    <p>Weather</p>
+    <p class="fonts">Weather</p>
 
     <div class="cards-container">
 
         <div class="card">
 
             <div class="card-main">
-                <p>Today</p>
+                <p id = "day-heading"> Today</p>
+
+
+                <div class="central">
                 <img class="same" src ="https://via.placeholder.com/100" alt="placeholder">
-                <p class="same cel">20</p>
-                <span class ="same cel">&#8451;</span>
-            </div>
+                <p id="temp-right-now" class="same num-celsius">20 <span class ="celsius-style">&#8451;</span> <!--celsius symbol--> </p>
+                </div>
+                </div>
+                
 
 
             <div class="card-sub">
 
                 <div class="card-sub-col1 low-high" >
-                    <p id = "1stL" class="same blue" > Low </p> 
-                    <p id = "1stH" class="same orange" > High</p>
+                    <p id = "0L" class="same blue" > Low </p> 
+                    <p id = "0H" class="same orange" > High</p>
                 </div>
                 <div class="card-sub-col2">
-                    <p id = "1stR" class="heightmargin">Rain:</p> 
-                    <p id = "1stW" class="heightmargin">Wind:</p>
+                    <p id = "0R" class="heightmargin">Rain:</p> 
+                    <p id = "0W" class="heightmargin">Wind:</p>
                 </div>
 
             </div>
@@ -41,24 +47,21 @@
         
 
 
-
-
-
-
         <div class="card">
             <div class="card-main">
 
-                <p>2nd-day</p>
+                <p id ="day-heading">2nd-day</p>
                 <img class="same" src ="https://via.placeholder.com/100" alt="placeholder">
+               
             </div>
             <div class="card-sub">
                 <div class="card-sub-col1 low-high">
-                    <p id = "2ndL" class="same" > Low </p> 
-                    <p id = "2ndH" class="same" > High</p>
+                    <p id = "1L" class="same blue" > Low </p> 
+                    <p id = "1H" class="same orange" > High</p>
                 </div>
-                <div class="card-sub-col2 rain-wind">
-                    <p id = "2ndR">Rain:</p> 
-                    <p id = "2ndW">Wind:</p>
+                <div class="card-sub-col2">
+                    <p id = "1R" class ="heightmargin">Rain:</p> 
+                    <p id = "1W" class ="heightmargin">Wind:</p>
                 </div>
             </div>
         </div>
@@ -67,41 +70,46 @@
         <div class="card">
             <div class="card-main">
 
-                <p>3rd-day</p>
+                <p id ="day-heading">3rd-day</p>
                 <img class="same" src ="https://via.placeholder.com/100" alt="placeholder">
+        
             </div>
             <div class="card-sub">
                 <div class="card-sub-col1 low-high">
-                    <p id = "3rdL"  class="same" > Low </p> 
-                    <p id = "3rdH" class="same" > High</p>
+                    <p id = "2L" class="same blue">Low</p> 
+                    <p id = "2H" class="same orange">High</p>
                 </div>
-                <div class="card-sub-col2 rain-wind">
-                    <p id = "3rdR" >Rain:</p> 
-                    <p id = "3rdW" >Wind:</p>
+                <div class="card-sub-col2">
+                    <p id = "2R" class="heightmargin">Rain</p> 
+                    <p id = "2W" class="heightmargin">Wind</p>
                 </div>
             </div>
         </div>
 
         <div class="card">
-            <div class="card-main">
 
-                <p>4th-day</p>
+            <div class="card-main">
+                <p id="day-heading">4th-day</p>
                 <img class="same" src ="https://via.placeholder.com/100" alt="placeholder">
             </div>
+
             <div class="card-sub">
+
                 <div class="card-sub-col1 low-high">
-                    <p id = "4thL" class="same" > Low </p> 
-                    <p id = "4thH" class="same" > High</p>
+                    <p id = "3L" class="same blue" > Low </p> 
+                    <p id = "3H" class="same orange" > High</p>
                 </div>
+
                 <div class="card-sub-col2 rain-wind">
-                    <p id = "4thR">Rain:</p> 
-                    <p id = "4thW">Wind:</p>
+                    <p id = "3R" class="heightmargin">Rain:</p> 
+                    <p id = "3W" class="heightmargin">Wind:</p>
                 </div>
+
             </div>
         </div>
 
 
     </div>
 </body>
-    <script src="./Weather.js"></script>
+    <script src="./Prop_dat.js"></script>
 </html>

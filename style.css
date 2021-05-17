@@ -1,53 +1,107 @@
-/* style for div that holds: all cards*/
+/* style for div that holds: all cards  -*/  
 .cards-container {
     display:grid; 
     grid-gap: 10px;
     grid-template-columns: repeat(4, 1fr);
 }
 
-/* style for each of the 4 card divs*/
+.fonts{
+    font-family: "Tangerine";
+    font-size:50px;
+}
+/* style for each of the 4 cards -*/
 .card {
-    display:grid;
+    display: grid;
     height : 300px;
-    grid-template-rows: 2fr 1fr; /* creating grid with 3 rows within card*/
+    grid-template-rows: 2fr 1fr; 
     background-color: rgb(240,240,240);
     border-radius: 10px;
 }
 
-/* style for div that holds main */
+/* style for div that holds main part of the card -*/
 .card .card-main {
-    font-size: x-large;
     text-align: center;
 }
 
+#day-heading{
+    font-size: x-large;
+}
 
+/* makes things inline with each other -*/
+.same {
+    margin: 5px;
+    display:inline;
+}
+
+/* makng the celsius and number centered relative to image */
+.central{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* styles number attatched to celsius - */
+.num-celsius{
+    color: rgb(112, 112, 112, 112);
+    font-size: xx-large;
+}
+
+/* styles celsius symbol */
+.celsius-style{
+    color: rgb(112, 112, 112, 112);
+    font-size: x-large;
+}
+
+/* celsus symbol -*/
+span {
+    content: "\2103";
+  }
+
+/* styles entire low end of card - */
 .card .card-sub {
     display:grid;
     grid-template-columns: 1fr 1fr;
 }
 
-
+/* styles first column of sub card -*/
 .card .card-sub .card-sub-col1{
-    font-size:x-large;
+    font-size: x-large;
     border-top: rgb(214, 214, 214) solid 2px;
     border-right: rgb(214, 214, 214) solid 2px;
 }
 
-
-
-.card .card-sub .card-sub-col2{
-    padding-top: 10px;
-    padding-left: 5px;
-    font-size: 15px;
-    border-top: rgb(214, 214, 214) solid 2px;
+/* styles low temp display - */
+.blue{
+    color: rgb(108,200,248);
+    font-size: 35px;
 }
 
+/* styles high temp display -*/
+.orange{
+    color: orange;
+    font-size: 35px
+    
+}
 
-.same {
-    margin: 5px;
-    display:inline;
-   }
+/* centeres the high / low temp display -*/
+.low-high{
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+/* styles second column of sub card -*/
+.card .card-sub .card-sub-col2{
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: 15px;
+    border-top: rgb(214, 214, 214) solid 2px;
+    color: rgb(159,159,159);
+}
+
+/* makes rain/wind display go on left */
    .heightmargin{
        display: table-row;
        display: flex;
@@ -56,29 +110,9 @@
        margin: 5px;
    }
 
-  .low-high{
-      font-size: 10px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-  }
 
-  .blue{
-      color: rgb(108,200,248);
-      font-size: 35px;
-  }
 
-  .orange{
-      color: orange;
-      font-size: 35px
-  }
 
-  span {
-    content: "\2103";
-  }
 
-  .cel{
-      color: rgb(112, 112, 112, 112);
-      font-size: xx-large;
-      font-family: Malik Book;
-  }
+
+
