@@ -107,8 +107,8 @@ while (daycount < maxdisplay){
             document.getElementById("day"+num).innerHTML = days[daycount]
             document.getElementById(num+"H").innerHTML = Math.round(weather[daycount].max_temp)
             document.getElementById(num+"L").innerHTML = Math.round(weather[daycount].min_temp)
-            document.getElementById(num+"R").innerHTML = "Rain: "+ Math.round(weather[daycount].wind_speed) +""+"km/h"
-            document.getElementById(num + "W").innerHTML = "Wind: "+ Math.round(weather[daycount].rain) +""+"%"
+            document.getElementById(num+"R").innerHTML = "Wind: "+ Math.round(weather[daycount].wind_speed) +""+"km/h"
+            document.getElementById(num + "W").innerHTML = "Rain: "+ Math.round(weather[daycount].rain) +""+"%"
             console.log("----------------------")
             console.log(daycount)
             console.log(num)
