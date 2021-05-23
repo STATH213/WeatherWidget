@@ -7,7 +7,7 @@
     <title>Weather</title>
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet"
-     href="https://fonts.googleapis.com/css?family=Tangerine">
+     href="https://fonts.googleapis.com/css?family=Roboto">
 </head>
 
 
@@ -19,12 +19,12 @@
         <div class="card">
 
             <div class="card-main">
-                <p id = "day-heading"> Today</p>
+                <p id = "day0" class = "header"> Today</p>
 
 
                 <div class="central">
-                <img class="same" src ="https://via.placeholder.com/100" alt="placeholder">
-                <p id="temp-right-now" class="same num-celsius">99 <span class ="celsius-style">&#8451;</span> <!--celsius symbol--> </p>
+                <img id ="img0" class="same pad" width="75" src ="https://via.placeholder.com/75" alt="placeholder">
+                <p id="the_temp" class="same num-celsius"> 23<span class ="celsius-style">&#8451;</span> <!--celsius symbol--> </p>
                 </div>
                 </div>
                 
@@ -50,13 +50,13 @@
         <div class="card">
             <div class="card-main">
 
-                <p id ="day-heading">2nd-day</p>
-                <img class="same" src ="https://via.placeholder.com/100" alt="placeholder">
+                <p id ="day1" class="header">2nd-day</p>
+                <img id ="img1" width = "100" class="same" src ="https://via.placeholder.com/100" alt="placeholder">
                
             </div>
             <div class="card-sub">
                 <div class="card-sub-col1 low-high">
-                    <p id = "1L" class="same blue" > Low </p> 
+                    <p id = "1L" class="same blue" > Low</p> 
                     <p id = "1H" class="same orange" > High</p>
                 </div>
                 <div class="card-sub-col2">
@@ -70,8 +70,8 @@
         <div class="card">
             <div class="card-main">
 
-                <p id ="day-heading">3rd-day</p>
-                <img class="same" src ="https://via.placeholder.com/100" alt="placeholder">
+                <p id ="day2" class = "header">3rd-day</p>
+                <img id ="img2" width ="100" class="same" src ="https://via.placeholder.com/100" alt="placeholder">
         
             </div>
             <div class="card-sub">
@@ -89,8 +89,8 @@
         <div class="card">
 
             <div class="card-main">
-                <p id="day-heading">4th-day</p>
-                <img class="same" src ="https://via.placeholder.com/100" alt="placeholder">
+                <p id="day3" class="header">4th-day</p>
+                <img id ="img3" width ="100" class="same" src ="https://via.placeholder.com/100" alt="placeholder">
             </div>
 
             <div class="card-sub">
@@ -111,5 +111,5 @@
 
     </div>
 </body>
-    <script src="./Prop_dat.js"></script>
+    <script src="./Data_to_html.js"></script>
 </html>

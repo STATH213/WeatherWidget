@@ -6,7 +6,7 @@
 }
 
 .fonts{
-    font-family: "Tangerine";
+    font-family: "Roboto";
     font-size:50px;
 }
 /* style for each of the 4 cards -*/
@@ -16,6 +16,7 @@
     grid-template-rows: 2fr 1fr; 
     background-color: rgb(240,240,240);
     border-radius: 10px;
+    font-family: "Roboto";
 }
 
 /* style for div that holds main part of the card -*/
@@ -23,8 +24,12 @@
     text-align: center;
 }
 
-#day-heading{
+.pad{
+    padding-right: 20px;
+}
+.header{
     font-size: x-large;
+    color: rgb(156,156,156);
 }
 
 /* makes things inline with each other -*/
@@ -44,13 +49,13 @@
 /* styles number attatched to celsius - */
 .num-celsius{
     color: rgb(112, 112, 112, 112);
-    font-size: xx-large;
+    font-size: xxx-large;
 }
 
 /* styles celsius symbol */
 .celsius-style{
     color: rgb(112, 112, 112, 112);
-    font-size: x-large;
+    font-size: 35px;
 }
 
 /* celsus symbol -*/
@@ -66,7 +71,6 @@ span {
 
 /* styles first column of sub card -*/
 .card .card-sub .card-sub-col1{
-    font-size: x-large;
     border-top: rgb(214, 214, 214) solid 2px;
     border-right: rgb(214, 214, 214) solid 2px;
 }
@@ -74,19 +78,18 @@ span {
 /* styles low temp display - */
 .blue{
     color: rgb(108,200,248);
-    font-size: 35px;
+    font-size: 40px;
 }
 
 /* styles high temp display -*/
 .orange{
     color: orange;
-    font-size: 35px
+    font-size: 40px;
     
 }
 
 /* centeres the high / low temp display -*/
 .low-high{
-    font-size: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -94,9 +97,9 @@ span {
 
 /* styles second column of sub card -*/
 .card .card-sub .card-sub-col2{
-    padding-top: 10px;
+    padding-top: 29px;
     padding-left: 10px;
-    font-size: 15px;
+    font-size: 18px;
     border-top: rgb(214, 214, 214) solid 2px;
     color: rgb(159,159,159);
 }
@@ -107,7 +110,8 @@ span {
        display: flex;
        justify-content: left;
        flex-direction: row;
-       margin: 5px;
+       margin: 0px;
+       padding-top: 0px;
    }
 
 
