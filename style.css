@@ -1,3 +1,8 @@
+/* Fake Dark mode  -*/  
+html {
+    filter: invert(1) hue-rotate(180deg);
+}
+
 /* style for div that holds: all cards  -*/  
 .cards-container {
     display:grid; 
